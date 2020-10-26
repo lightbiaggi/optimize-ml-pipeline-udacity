@@ -58,8 +58,9 @@ def clean_data(data):
 x, y = clean_data(ds)
 
 # TODO: Split data into train and test sets.
-train_d, test_d = ds.random_split(percentage=0.8, seed=223)
-print (train_d)
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.20, random_state=1)
+
 
 ### YOUR CODE HERE ###a
 
