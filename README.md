@@ -46,14 +46,12 @@ F1 score weighted
 
 ## Pipeline comparison
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
-AutoMl has acuracy of 0.84819
-HyperParameters has accuracy of Accuracy
-0.9109256449165403
+AutoMl is and should auto perform since it will able to analyise many algorithms and different configurations in the same time automatically which gives us a bigger place for exploraration .
+while in HyperDrive we limited on focusing on the Hyperparameters and limited to one algorthims for example in this case logistic regression .
 
-Hyperparameters was better but in automl we explored more algorthims and i believe with further tunning it can easily outperform hyperdrive
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 I need to try the grid instead of random sample to explore more hyperdrive and I need to change tunning in automl like change number of cross validations
 ## Proof of cluster clean up
 
-I did not do it since optional
+added delete_compute(compute_target) to clean Resources once is done
