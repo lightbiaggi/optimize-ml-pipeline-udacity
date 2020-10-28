@@ -56,4 +56,4 @@ Hyperparameters was better but in automl we explored more algorthims and i belie
 I need to try the grid instead of random sample to explore more hyperdrive and I need to change tunning in automl like change number of cross validations
 ## Proof of cluster clean up
 
-I didint do it since optional
+I did not do it since optional
