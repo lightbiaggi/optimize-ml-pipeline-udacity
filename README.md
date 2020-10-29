@@ -60,4 +60,4 @@ HyperParameters has accuracy of Accuracy
 I need to try the grid instead of random sample to explore more hyperdrive and I need to change tunning in automl like change number of cross validations
 ## Proof of cluster clean up
 
-added compute_target.delete(compute_target) to clean Resources once is done last line of the book
+added compute_target.delete() to clean Resources once is done last line of the book
